@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+    font-family: Montserrat,Roboto,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333; /* Set your desired text color */
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Set your desired font size */
+}
+
+header p {
+    font-size: 1.0em; /* Set your desired font size */
+    color: #333;
+}
+
+
+#myname {
+    padding-right: 240px;
+}
+
+#webdeveloper {
+    padding-left: 250px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333; /* Set your desired background color */
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Set your desired text color */
+}
+
+.banner {
+    height: 55vh;
+    padding-top: 200px;
+    margin-top: 30px;
+    background: url(Images/coding.jpg) no-repeat 70%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+#about {
+    margin: 0 30px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: black;
+}
+ main p {
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+
+ #skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+  }
+  
+  #skills-container > * {
+    font-size: 2em;
+    width: 10%;
+    margin-top: 10%;
+  }
+
+  #projects {
+    margin-top: 100px;
+  }
+  
+
+  #contact {
+    margin-top: 100px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
